@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Hello') {
       steps {
-        echo 'Hello version from Jenkinsfile! using Github'
+        echo 'Hello version from Jenkinsfile! using Github  after using poll'
       }
     }
   }
